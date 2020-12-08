@@ -16,7 +16,7 @@ window.addEventListener("load", function() {
                         <h3>${astronaut.firstName} ${astronaut.lastName}</h3>
                         <ul>
                             <li>Hours in Space: ${astronaut.hoursInSpace}</li>
-                            <li>Active: ${astronaut.active}</li>
+                            <li>Active: ${isActiveHtml}</li>
                             <li>Skills: ${astronaut.skills.join(", ")}</li>
                         </ul>
                     </div>        
